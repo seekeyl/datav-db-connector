@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "datav.visitkey",
+    "type": "java.lang.String",
+    "description": "必需有32位"
+  },
+  {
+    "name": "datav.secret",
+    "type": "java.lang.String",
+    "description": "必需是16位"
+  },
+  {
+    "name": "datav.validatetime",
+    "type": "java.lang.Boolean",
+    "description": "是否校验传入时间"
+  },
+  {
+    "name": "datav.expired",
+    "type": "java.lang.Integer",
+    "description": "有效时间"
+  }
+]}

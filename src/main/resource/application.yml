@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  ssl:
+    key-alias: <key-alias>
+    key-store: cert/<key-file>.jks
+    key-store-password: <password>
+    key-store-type: JKS
+    
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+datav:
+  visitkey: <visitkey must be a 32 byte string>
+  secret: <srcret must be a 16 byte string>
+  validatetime: true
+  expired: 60
